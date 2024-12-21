@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Playwrite NZ";
+  src: url("/fonts/PlaywriteNZ-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
