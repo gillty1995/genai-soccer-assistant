@@ -7,10 +7,10 @@ export default defineConfig({
     port: 5177,  // Custom port
   },
   build: {
-    outDir: 'dist',       // Specify the output directory (defaults to 'dist')
-    assetsDir: 'assets',  // Set the directory for assets (images, fonts, etc.)
+    outDir: 'dist',       
+    assetsDir: 'assets',  
     rollupOptions: {
-      input: 'index.html', // Make sure the correct entry file is used
+      input: 'index.html', 
     },
   },
 });
