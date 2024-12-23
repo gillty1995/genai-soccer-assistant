@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-import soccerPitchImage from "./assets/soccer-pitch.jpg";
 
 const App: React.FC = () => {
   const [userQuery, setUserQuery] = useState("");
@@ -10,6 +9,8 @@ const App: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   const apiUrl = "https://api.futbolrules.hec.to/api/ask";
+
+  const backgroundImage = "/soccer-pitch.jpg";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -47,7 +48,7 @@ const App: React.FC = () => {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col"
-      style={{ backgroundImage: `url(${soccerPitchImage})` }}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <Header />
       <div className="flex-grow flex flex-col items-center justify-center p-4">

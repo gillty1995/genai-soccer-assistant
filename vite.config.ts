@@ -10,7 +10,8 @@ export default defineConfig({
     outDir: 'dist',       
     assetsDir: 'assets',  
     rollupOptions: {
-      input: 'index.html', 
+      input: 'index.html',
     },
   },
+  assetsInclude: ['**/*.jpg', '**/*.png', '**/*.svg'],
 });

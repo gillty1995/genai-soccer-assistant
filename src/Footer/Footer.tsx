@@ -1,9 +1,9 @@
 import React from "react";
-import GitHubIcon from "../assets/white-github.svg";
+import GitHubIcon from "../assets/github.svg";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-transparent text-white py-4 flex justify-between items-center px-4">
+    <footer className="bg-transparent text-gray-800 py-4 flex justify-between items-center px-4">
       <div className="text-left">
         <p>
           &copy; 2024 FutbolRules. All rights reserved.{" "}
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
       <div className="flex items-center gap-4">
         <a
           href="https://github.com/gillty1995"
-          className="text-white hover:underline flex items-center gap-1"
+          className="text-gray-800 hover:underline flex items-center gap-1"
           target="_blank"
           rel="noopener noreferrer"
         >
