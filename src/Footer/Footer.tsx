@@ -1,9 +1,9 @@
 import React from "react";
-import GitHubIcon from "../assets/github.svg";
+import GitHubIcon from "../assets/white-github.svg";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-transparent text-gray-800 py-4 flex justify-between items-center px-4">
+    <footer className="bg-transparent text-white py-4 flex justify-between items-center px-4">
       <div className="text-left">
         <p>
           &copy; 2024 FutbolRules. All rights reserved.{" "}

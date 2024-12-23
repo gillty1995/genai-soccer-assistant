@@ -8,9 +8,11 @@ const App: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  console.log("App rendered", { userQuery, aiResponse, loading, error });
+
   const apiUrl = "https://api.futbolrules.hec.to/api/ask";
 
-  const backgroundImage = "/soccer-pitch.jpg";
+  const backgroundImage = "/assets/soccer-pitch.jpg";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
