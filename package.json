@@ -1,5 +1,6 @@
 {
   "name": "genai-soccer-assistant",
+  "homepage": "https://futbolrules.hec.to",
   "private": true,
   "version": "0.0.0",
   "type": "module",
