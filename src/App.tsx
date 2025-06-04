@@ -10,7 +10,7 @@ const App: React.FC = () => {
 
   console.log("App rendered", { userQuery, aiResponse, loading, error });
 
-  const apiUrl = "https://api.futbolrules.hec.to/api/ask";
+  const apiUrl = "https://api.futbolrules.mine.bz/api/ask";
 
   const backgroundImage = "/assets/soccer-pitch.jpg";
 

@@ -19,7 +19,6 @@ Technical Skills and Languages
 • AWS (for deployment)
 • Other Tools:
 • Git/GitHub
-• CSS Flexbox and Grid
 • RESTful APIs
 
 Acknowledgments
